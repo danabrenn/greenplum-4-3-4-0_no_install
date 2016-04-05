@@ -1,25 +1,28 @@
-Instructions for building a Greenplum 4.3.4.0 Environment with Vagrant
+Instructions for building a Greenplum 4.3.4.0 environment with Vagrant
 
 This Vagrant build will create four ( 4 ) Greenplum Database nodes.
 The four ( 4 ) nodes are:
-
-mdw			greenplum master
-
+mdw     greenplum master
 smdw		greenplum standby master
-
-sdw1			greenplum segment host 1
-
-sdw2			greenplum segment host 2
+sdw1    greenplum segment host 1
+sdw2    greenplum segment host 2
 
 
 The scripts that get executed are:
 Vagrantfile -- Vagrant script to define the build process
+
 install_applications.sh -- script to install required applications ( non Greenplum Applications ) onto the nodes
+
 setup_host.sh -- on each host creates minimal /etc/hosts file, creates /data directory and populates .bashrc file
+
 setup_master.sh -- generates ssh keys, pushes keys to other nodes, sets kernel and security limits parameters and copies them to other hosts
+
 change_password.sh -- changes root password from 'vagrant' to 'Piv0tal'
+
 install_lab_data_on_sdw1.sh -- copies files required for lab exercises to sdw1
+
 install_lab_data_on_mdw.sh -- copies files required for lab exercises to mdw ( including Greenplum Database & Command Center installation files )
+
 unmount_vagrant.sh -- unmounts /vagrant directory
 
 This build DOES NOT install / configure Greenplum 4.3.4.0 or Greenplum Command Center 1.3.0.0
