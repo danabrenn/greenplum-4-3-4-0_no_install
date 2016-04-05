@@ -3,10 +3,10 @@
 This Vagrant build will create four ( 4 ) Greenplum Database nodes.
 
 The four ( 4 ) nodes are:
-  mdw-->greenplum master
-  smdw-->greenplum standby master
-  sdw-->greenplum segment host 1
-  sdw-->greenplum segment host 2
+1)  mdw-->greenplum master
+2)  smdw-->greenplum standby master
+3)  sdw-->greenplum segment host 1
+4)  sdw-->greenplum segment host 2
   
 ------------------
 ------------------
