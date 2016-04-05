@@ -31,6 +31,7 @@ Once built this environment can be used to install / configure Greenplum 4.3.4.0
 
 ------------------
 ------------------
+
 Required Downloads
 
 1. Install Virtualbox from -- https://www.virtualbox.org/wiki/Downloads
@@ -41,6 +42,13 @@ Required Downloads
 --------------
 
 Building the Greenplum 4.3.4.0 Environment
+
+Enter the following commands in a terminal window:
+1. $ git init
+2. $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
+3. $ cd greenplum-4-3-4-0_no_install
+
+
 ------------------
 ------------------
 
