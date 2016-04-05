@@ -44,6 +44,7 @@ Required Downloads
 Building the Greenplum 4.3.4.0 Environment
 
 Enter the following commands in a terminal window:
+
 1. Vagrantfile -- Vagrant script to define the build process
 2. install_applications.sh -- script to install required applications ( non Greenplum Applications ) onto the nodes
 3. setup_host.sh -- on each host creates minimal /etc/hosts file, creates /data directory and populates .bashrc file
