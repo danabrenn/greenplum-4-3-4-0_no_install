@@ -49,4 +49,6 @@ Enter following commands in a terminal window:
 3. $ cd greenplum-4-3-4-0_no_install
 4. 
 
+------------------
+------------------
 
