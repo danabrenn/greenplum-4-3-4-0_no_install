@@ -55,7 +55,7 @@ Enter the following commands in a terminal window:
 
 1. $ vagrant up
 
-Once the vagrant build process is completed you have a Greenplum Cluster on which you can install the Greenplum Database version 4-3-4-0 and the Greenplum Command Center version 1.3.0.0
+Once the Vagrant build process is completed you have a Greenplum Cluster on which you can install the Greenplum Database version 4-3-4-0 and the Greenplum Command Center version 1.3.0.0
 
 ------------------
 ------------------
