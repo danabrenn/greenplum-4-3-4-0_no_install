@@ -11,6 +11,7 @@ The four ( 4 ) nodes are:
   sdw-->greenplum segment host 1
 
   sdw-->greenplum segment host 2
+  
 ------------------
 ------------------
 
