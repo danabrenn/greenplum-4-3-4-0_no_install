@@ -30,6 +30,7 @@ install_lab_data_on_mdw.sh -- copies files required for lab exercises to mdw ( i
 unmount_vagrant.sh -- unmounts /vagrant directory
 
 This build DOES NOT install / configure Greenplum 4.3.4.0 or Greenplum Command Center 1.3.0.0
+
 Once built this environment can be used to install / configure Greenplum 4.3.4.0 and Greenplum Command Center 1.3.0.0
 
 ------------------
