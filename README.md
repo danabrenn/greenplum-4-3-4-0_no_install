@@ -43,7 +43,7 @@ Required Downloads
 
 Building the Greenplum 4.3.4.0 Environment
 
-Enter the following commands in a terminal window:
+Execute the following commands in a terminal window:
 
 1. $ git init
 2. $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
@@ -51,7 +51,7 @@ Enter the following commands in a terminal window:
 
 Unzip 'VM-Bits-4-3-4-0.7z' to the cloned directory 'greenplum-4-3-4-0_no_install'
 
-Enter the following commands in a terminal window:
+Execute the following command in a terminal window:
 
 1. $ vagrant up
 
@@ -59,4 +59,3 @@ Once the Vagrant build process is completed you have a Greenplum Cluster on whic
 
 ------------------
 ------------------
-
