@@ -3,13 +3,13 @@ Instructions for building a Greenplum 4.3.4.0 environment with Vagrant
 This Vagrant build will create four ( 4 ) Greenplum Database nodes.
 The four ( 4 ) nodes are:
 
-*mdw     greenplum master
+  mdw     greenplum master
 
-*smdw		greenplum standby master
+  smdw		greenplum standby master
 
-*sdw1    greenplum segment host 1
+  sdw1    greenplum segment host 1
 
-*sdw2    greenplum segment host 2
+  sdw2    greenplum segment host 2
 
 The scripts that get executed are:
 
@@ -46,11 +46,15 @@ Building the Greenplum 4.3.4.0 Environment
 --------------
 
 Enter following commands in a terminal window
+
 $ git init
+
 $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
+
 $ cd greenplum-4-3-4-0_no_install
 
 Unzip 'VM-Bits-4-3-4-0.7z' to 'greenplum-4-3-4-0_no_install'
+
 
 $ vagrant up
 
