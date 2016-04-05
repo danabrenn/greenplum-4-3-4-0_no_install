@@ -44,9 +44,12 @@ Required Downloads
 Building the Greenplum 4.3.4.0 Environment
 
 Enter the following commands in a terminal window:
-1. $ git init
-2. $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
-3. $ cd greenplum-4-3-4-0_no_install
+1. Vagrantfile -- Vagrant script to define the build process
+2. install_applications.sh -- script to install required applications ( non Greenplum Applications ) onto the nodes
+3. setup_host.sh -- on each host creates minimal /etc/hosts file, creates /data directory and populates .bashrc file
+4. setup_master.sh -- generates ssh keys, pushes keys to other nodes, sets kernel and security limits parameters and copies them to other hosts
+5. change_password.sh -- changes root password from 'vagrant' to 'Piv0tal'
+6. install_lab_data_on_sdw1.sh -- copies files required for lab exercises to sdw1
 
 
 ------------------
