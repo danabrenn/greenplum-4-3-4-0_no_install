@@ -39,15 +39,17 @@ Once built this environment can be used to install / configure Greenplum 4.3.4.0
 
 ------------------
 ------------------
+Required Downloads
 
 1. Install Virtualbox from -- https://www.virtualbox.org/wiki/Downloads
 2. Install latest version of Vagrant from -- http://downloads.vagrantup.com/
 3. Download 'VM-Bits-4-3-4-0.7z' from -- https://drive.google.com/open?id=0B0GuXbbUzfoWVEswa2Z6aWR2Nnc
 
+--------------
+--------------
+
 Building the Greenplum 4.3.4.0 Environment
 
---------------
---------------
 
 Enter following commands in a terminal window
 
