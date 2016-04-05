@@ -49,9 +49,9 @@ Enter following commands in a terminal window
 2.  $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
 3.  $ cd greenplum-4-3-4-0_no_install
 
-Unzip 'VM-Bits-4-3-4-0.7z' to 'greenplum-4-3-4-0_no_install'
+Unzip 'VM-Bits-4-3-4-0.7z' to 'greenplum-4-3-4-0_no_install' that was just cloned
 
-
-$ vagrant up
+Enter following command in a terminal window
+1.  $ vagrant up
 
 Once the vagrant build process is completed you have a Greenplum Cluster on which you can install the Greenplum Database version 4-3-4-0 and the Greenplum Command Center 1.3.0.0
