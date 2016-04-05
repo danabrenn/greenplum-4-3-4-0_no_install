@@ -1,6 +1,4 @@
-#greenplum-4-3-4-0_no_install
-
-Instructions for building a Greenplum 4.3.4.0 environment with Vagrant
+#Instructions for building a Greenplum 4.3.4.0 environment with Vagrant
 
 This Vagrant build will create four ( 4 ) Greenplum Database nodes.
 The four ( 4 ) nodes are:
