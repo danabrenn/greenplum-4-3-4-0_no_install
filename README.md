@@ -10,7 +10,7 @@ The four ( 4 ) nodes are:
   sdw-->greenplum segment host 1
 
   sdw-->greenplum segment host 2
-
+''''
 The scripts that get executed are:
 
 Vagrantfile -- Vagrant script to define the build process
