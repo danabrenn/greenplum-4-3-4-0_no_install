@@ -43,7 +43,6 @@ Required Downloads
 
 Building the Greenplum 4.3.4.0 Environment
 
-
 Enter following commands in a terminal window:
 1.  $ git init
 2.  $ git clone https://github.com/danabrenn/greenplum-4-3-4-0_no_install.git
