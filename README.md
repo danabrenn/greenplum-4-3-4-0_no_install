@@ -2,12 +2,17 @@ Instructions for building a Greenplum 4.3.4.0 environment with Vagrant
 
 This Vagrant build will create four ( 4 ) Greenplum Database nodes.
 The four ( 4 ) nodes are:
+
 mdw     greenplum master
+
 smdw		greenplum standby master
+
 sdw1    greenplum segment host 1
+
 sdw2    greenplum segment host 2
 
 The scripts that get executed are:
+
 Vagrantfile -- Vagrant script to define the build process
 
 install_applications.sh -- script to install required applications ( non Greenplum Applications ) onto the nodes
