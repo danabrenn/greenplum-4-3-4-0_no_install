@@ -6,7 +6,7 @@ cd /
 
 # all files & directories in the  /vagrant directory are mounted each vm
 # VM-Bits-4-3-4-0 contains all of the bits required by the lab exercises
-cd vagrant/VM-Bits-4-3-4-0
+cd vagrant/VM-Bits
 
 # extract sdw1_loaddata.tar to the /loaddata directory
 # Note that this data is loaded to sdw1 only

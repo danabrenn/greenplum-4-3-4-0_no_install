@@ -7,7 +7,7 @@ cd /
 
 # all files & directories in the  /vagrant directory are mounted on each vm
 # /VM-Bits-4-3-4-0 contains all of the bits required by the lab exercises
-cd vagrant/VM-Bits-4-3-4-0
+cd vagrant/VM-Bits
 
 # copy the /rawdata directory to  / ( root directory )
 cp -r rawdata/ /
